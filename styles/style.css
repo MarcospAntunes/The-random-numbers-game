@@ -1,0 +1,134 @@
+@import url('./animations.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #303030;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+#logo {
+    width: 52px;
+    height: 38px;
+
+    cursor: pointer;
+}
+
+header h1 {
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 75vh;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    overflow: visible;
+}
+
+.balao {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    max-width: 150px;
+    margin-left: 200px;
+
+    background-color: white;
+    font-size: 11px;
+    color: black;
+
+    overflow: visible;
+    z-index: 1;
+}
+
+.balao::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: -7px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+
+#areaDaAnimacao {
+    width: 38;
+    height: 42px;
+    cursor: pointer;
+    animation: duckyAnimationWalking 5s linear;
+}
+
+.audio {
+    display: none;
+}
+
+#interacaoDoUsuario {
+    flex-direction: column;
+    gap: 25px;
+}
+
+#numeroDoUsuario {
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    width: 300px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+#botoes {
+    display: flex;
+    gap: 20px;
+}
+
+
+button {
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+
+    background-color: whitesmoke;
+}
+
+#jogarNovamente {
+    display: none;
+}
+
+button:hover {
+    border: 1px solid rgb(206, 206, 73);
+    transform: translate(-3px, -3px);
+    transition: 0.3s;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

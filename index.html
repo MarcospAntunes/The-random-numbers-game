@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>The Random numbers Game</title>
+</head>
+<body>
+    <header>
+        <img src="assets/duckyLogo.png" alt="O pato" id="logo">
+        <h1>The Random numbers Game</h1>
+        <span></span>
+        <audio src="/assets/audio/quack-music.mp3" autoplay controls class="audio" id="audioPatoLogo" ></audio>
+    </header>
+
+    <main>
+        <section id="secaoDoPato">
+            <canvas id="areaDaAnimacao"></canvas>
+
+            <div class="balao">
+                <p>Seja bem-vindo(a)! Para começar, escolha um número entre 0 e 1000.</p>
+            </div>
+
+            <audio src="/assets/audio/quack.mp3" autoplay controls id="audioPato" class="audio"></audio>
+
+        </section>
+
+        <section id="interacaoDoUsuario">
+            <input type="text" placeholder="Digite um número" id="numeroDoUsuario" disabled onchange="verificaNumero()">
+            <div id="botoes">
+                <button id="chutar" disabled>Chutar</button>
+                <button id="jogarNovamente" onclick="restart()">Jogar Novamente</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Contato</h2>
+        <p>Email: marcospantunes203@gmail.com</p>
+    </footer>
+
+    <script src="scripts/animation.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

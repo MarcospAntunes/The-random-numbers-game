@@ -1,0 +1,21 @@
+@keyframes duckyAnimationWalking {
+    0% {
+        transform: translate(-100vw);
+    }
+
+    25% {
+        transform: translate(-75vw);
+    }
+
+    50% {
+        transform: translate(-50vw);
+    }
+
+    75% {
+        transform: translate(-25vw);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+}
