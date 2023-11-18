@@ -31,7 +31,7 @@ function verificaNumero() {
                 balao.innerHTML = 'Acertou!'
                 balao.style.marginLeft = '120px'
 
-                audioPato.src = '/assets/audio/quack-music.mp3'
+                audioPato.src = './assets/audio/quack-music.mp3'
                 audioPato.play()
                 chutar.setAttribute('disabled' ,'true')
                 jogarNovamente.style.display = 'block'
