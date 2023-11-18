@@ -1,5 +1,5 @@
 let img = new Image();
-img.src = '../assets/duckySpriteAndando.png';
+img.src = './assets/duckySpriteAndando.png';
 img.onload = function() {
     init();
 }
@@ -48,5 +48,5 @@ function init() {
 }
 
 setTimeout(() => {
-    img.src = '../assets/duckySpriteIdle.png';
+    img.src = './assets/duckySpriteIdle.png';
 }, 5000)
