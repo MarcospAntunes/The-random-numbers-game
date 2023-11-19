@@ -52,6 +52,25 @@ section {
     overflow: visible;
 }
 
+#explicacao {
+    flex-direction: column;
+    font-size: 14px;
+
+    margin-top: 60px;
+}
+
+#explicacao ol {
+    line-height: 16px;
+    font-size: 12px;
+    margin-top: 5px;
+   
+   overflow: visible;
+}
+
+li {
+    overflow: visible;
+}
+
 .balao {
     display: none;
     position: absolute;
@@ -128,8 +147,11 @@ button:hover {
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 100vw;
+
+    position: absolute;
+    bottom: 0;
+    
+    text-align: center;
+    
 }
