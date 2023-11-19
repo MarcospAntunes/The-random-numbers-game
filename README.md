@@ -1,4 +1,4 @@
-<img src="./assets/duckyLogo.png" alt="The Ducky" align="right" width="84" height="56">
+<img src="./assets/duckyLogo.png" alt="The Ducky" align="left" width="84" height="56">
 <h1 align='center'>The random Numbers Game</h1>
 
 <div style="display: inline_block">
