@@ -1,6 +1,6 @@
 <h1 align='center'>The random Numbers Game</h1>
 
-<img src="./assets/duckyLogo.png" alt="The Ducky" width="84" height="56">
+<img src="./assets/duckyLogo.png" alt="The Ducky" align="center" width="84" height="56">
 
 <hr>
 
